@@ -15,12 +15,16 @@ import {environment} from '../environments/environment';
 import {SignInComponent} from './pages/sign-in/sign-in.component';
 import {SignUpComponent} from './pages/sign-up/sign-up.component';
 import {AuthService} from "./services/auth.service";
+import {ForgotPasswordComponent} from './pages/forgot-password/forgot-password.component';
+import {VerifyEmailComponent} from './pages/verify-email/verify-email.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SignInComponent,
-    SignUpComponent
+    SignUpComponent,
+    ForgotPasswordComponent,
+    VerifyEmailComponent
   ],
   imports: [
     BrowserModule,
