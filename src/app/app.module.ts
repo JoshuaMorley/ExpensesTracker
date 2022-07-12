@@ -18,6 +18,7 @@ import {SignUpComponent} from './pages/sign-up/sign-up.component';
 import {AuthService} from "./services/auth.service";
 import {ForgotPasswordComponent} from './pages/forgot-password/forgot-password.component';
 import {VerifyEmailComponent} from './pages/verify-email/verify-email.component';
+import {MaterialModule} from "./components/material/material.module";
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import {VerifyEmailComponent} from './pages/verify-email/verify-email.component'
     AngularFirestoreModule,
     AngularFireStorageModule,
     AngularFireDatabaseModule,
+    MaterialModule
   ],
   providers: [AuthService],
   bootstrap: [AppComponent]
