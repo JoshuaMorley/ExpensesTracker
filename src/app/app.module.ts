@@ -4,6 +4,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {TripsComponent} from './pages/trips/trips.component';
 
 // Firebase services + environment module
 import {AngularFireModule} from '@angular/fire/compat';
@@ -24,7 +25,8 @@ import {VerifyEmailComponent} from './pages/verify-email/verify-email.component'
     SignInComponent,
     SignUpComponent,
     ForgotPasswordComponent,
-    VerifyEmailComponent
+    VerifyEmailComponent,
+    TripsComponent
   ],
   imports: [
     BrowserModule,
